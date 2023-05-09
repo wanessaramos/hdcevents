@@ -1,66 +1,50 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
+  <h1>HDC Events</h1>
+  <div align="center" style="display:inline_block">
+  <img src="https://img.shields.io/static/v1?label=PHP&message=8.2&color=blue"/>
+  <img src="https://img.shields.io/static/v1?label=laravel&message=10.4.1&color=teal"/>
+  <img src="https://img.shields.io/static/v1?label=mariadb&message=10.4.27&color=black"/>
+  <img src="https://img.shields.io/static/v1?label=xampp&message=v3.3.0&color=navy"/>
+  <img src="https://img.shields.io/static/v1?label=licence&message=none&color=green"/>
+  </div><br>
+</div>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<div align="center" style="display:inline_block"> <h3>Aplicação Web para Eventos</h3>
+    <img height="50em" width="50em" src="https://github.com/wanessaramos/hdcevents/blob/main/public/img/logo_hdcevents.png"/></div>
+<br>
+<p>[x] Crie uma conta</p>
+<p>[x] Cadastre, edite e exclua seus eventos</p>
+<p>[x] Veja, participe ou desista de participar de Eventos</p>
+ 
+<h1>Sobre o projeto:</h1>
+<div align="left" style="display:inline_block">
+    <p>Este projeto foi desenvolvido como objetivo de aprendizagem: introdução ao Laravel.</p>
+    <p>O conteúdo foi adquirido na plataforma youTube canal Hora de Codar.</p>
+    <p>O projeto apresenta, além do contéudo original aprendido em aula, algumas alterações pessoais:</p>
+    <p>Impedir que um usuário possa se increver em seu próprio evento.</p>
+    <p>Modificar ou Excluir na pasta de armazenamento de imagens dos eventos a imagem relacionada ao evento</p>
+</div>
 
-## About Laravel
+<h3>Requisitos</h3>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- [x] PHP 8.02++
+- [x] mariadb 10.4.27++ 
+- [x] Laravel 10.4.1++
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h3>Como usar ?</h3>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- [x] Faça o download em: https://github.com/wanessaramos/hdcevents
+- [x] Crie um banco de dados com o nome hdcevents
+- [x] Entre na pasta do projeto e coloque as configurações do banco no arquivo .env
+- [x] Exemplo:
+    <div align="left" style="display:inline_block">
+        <p>DB_CONNECTION=mysql</p>
+        <p>DB_HOST=127.0.0.1</p>
+        <p>DB_PORT=3306</p>
+        <p>DB_DATABASE=hdcevents</p>
+        <p>DB_USERNAME=root</p>
+        <p>DB_PASSWORD=****</p>
+    </div>
+- [x] Para iniciar a aplicação, digite no terminal: php artisan serve
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
