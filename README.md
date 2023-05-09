@@ -12,20 +12,22 @@
 <div align="center" style="display:inline_block"> <h3>Aplicação Web para Eventos</h3>
     <img height="50em" width="50em" src="https://github.com/wanessaramos/hdcevents/blob/main/public/img/logo_hdcevents.png"/></div>
 <br>
-<p>[x] Crie uma conta</p>
-<p>[x] Cadastre, edite e exclua seus eventos</p>
-<p>[x] Veja, participe ou desista de participar de Eventos</p>
+<p>[x] Crie uma conta.</p>
+<p>[x] Cadastre, edite e exclua seus eventos.</p>
+<p>[x] Veja, participe ou desista de participar de eventos.</p>
  
 <h1>Sobre o projeto:</h1>
 <div align="left" style="display:inline_block">
     <p>Este projeto foi desenvolvido como objetivo de aprendizagem: introdução ao Laravel.</p>
     <p>O conteúdo foi adquirido na plataforma youTube canal Hora de Codar.</p>
     <p>O projeto apresenta, além do contéudo original aprendido em aula, algumas alterações pessoais:</p>
-    <p>Impedir que um usuário possa se increver em seu próprio evento.</p>
-    <p>Modificar ou Excluir na pasta de armazenamento de imagens dos eventos a imagem relacionada ao evento</p>
+    <ul>
+        <li>Impedir que um usuário possa se increver em seu próprio evento.</li>
+        <li>Modificar ou Excluir na pasta de armazenamento de imagens dos eventos a imagem relacionada ao evento.</li>
+    </ul>
 </div>
 
-<h3>Requisitos</h3>
+<h3>Requisitos:</h3>
 
 - [x] PHP 8.02++
 - [x] mariadb 10.4.27++ 
